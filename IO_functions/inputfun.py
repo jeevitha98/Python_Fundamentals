@@ -9,3 +9,5 @@ print(i)
 
 lst=[x for x in input('enter 3 numbers').split()] #seperated by space
 print(lst)
+
+lst=[int(x) for x in input('enter 3 numbers').split(",")] #seperated by comma
