@@ -14,4 +14,6 @@ while True:
     else:
         print('the salary of the employee is',salary)
     
-    
+    choice=input('do you want to know the salary of another employee[Yes|No]')
+    if choice=='No':
+        break
