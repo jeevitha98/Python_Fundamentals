@@ -5,3 +5,13 @@ for i in range(n):
     salary=input('enter employee salary')
     employees[name]=salary
 
+print('Know salary details of any employee')
+while True:
+    name=input('enter emp name')
+    salary=employees.get(name, -1)
+    if salary == -1:
+        print('employees does not exist')
+    else:
+        print('the salary of the employee is',salary)
+    
+    
