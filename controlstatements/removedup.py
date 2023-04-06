@@ -8,3 +8,4 @@ for each_value in l1:
 print(l2)
 
 s1=set(l1)
+print(s1)
