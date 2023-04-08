@@ -10,10 +10,6 @@ while True:
     name=input('enter emp name')
     salary=employees.get(name, -1)
     if salary == -1:
-        print(' does not exist')
+        print('employees does not exist')
     else:
         print('the salary of the employee is',salary)
-    
-    choice=input('do you want to know the salary of another employee[Yes|No]')
-    if choice=='No':
-        break
