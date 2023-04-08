@@ -13,3 +13,6 @@ print(result)
 
 s2='-'.join(['a','b','c'])
 print(s2)
+#or
+'''s2=input('enter a string')
+print(''.join(reversed(s)))'''
