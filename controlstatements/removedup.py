@@ -7,5 +7,6 @@ for each_value in l1:
         l2.append(each_value)
 print(l2)
 
+#or use set
 s1=set(l1)
 print(s1)
