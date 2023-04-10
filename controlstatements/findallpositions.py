@@ -1,4 +1,5 @@
 '''prog to print psoitions of a substring in a string'''
+
 s="take up one idea and make that idea your life."\
   "think and dream of that idea ad leave every other idea alone."
 
