@@ -8,3 +8,6 @@ def display():
 print(x)
 z=display
 z()
+z()
+z()
+
