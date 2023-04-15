@@ -1,0 +1,10 @@
+from math import *
+
+print(sqrt(9))
+print(ceil(10.5))
+print(floor(10.5))
+print(fabs(10.5))
+
+#print(dir(modulename)) -> prints all functions in the mentioned module
+print(dir(math))
+help(math)
