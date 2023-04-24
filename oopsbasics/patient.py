@@ -19,7 +19,3 @@ p.addClinicalData(c1)
 c2=Clinical('bp','100/122')
 p.addClinicalData(c2)
 
-print(p.name)
-for eachClinical in p.clinical:
-    print(eachClinical.componentName)
-    print(eachClinical.componentValee)
