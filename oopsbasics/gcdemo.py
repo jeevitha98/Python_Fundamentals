@@ -6,4 +6,3 @@ gc.disable()
 print(gc.isenabled())
 gc.enable()
 
-print(gc.isenabled())
