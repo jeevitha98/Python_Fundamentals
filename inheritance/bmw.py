@@ -15,3 +15,5 @@ class FiveSeries(BMW):
         BMW.__init__(self,make, model, year)
         self.parkingAssistEnabled = parkingAssistEnabled
         
+threeSeries=ThreeSeries(True,'bmw','328i','2018')
+
