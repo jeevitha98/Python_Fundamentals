@@ -17,3 +17,7 @@ class FiveSeries(BMW):
         
 threeSeries=ThreeSeries(True,'bmw','328i','2018')
 
+print(threeSeries.cruiseControlEnabled)
+print(threeSeries.make)
+print(threeSeries.model)
+print(threeSeries.year)
