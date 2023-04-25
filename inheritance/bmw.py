@@ -4,10 +4,19 @@ class BMW:
         self.model=model
         self.year=year
 
+    def start(self):
+        print('starting the car')
+        
+    def stop(self):
+        print('stopping the car')
+
 class ThreeSeries(BMW):
     def __init__(self, cruiseControlEnabled, make, model, year):
         BMW.__init__(self,make, model, year)
         self.cruiseControlEnabled = cruiseControlEnabled
+
+    def display(self):
+        print(self.cruiseControlEnabled)
 
 
 class FiveSeries(BMW):
@@ -21,3 +30,7 @@ print(threeSeries.cruiseControlEnabled)
 print(threeSeries.make)
 print(threeSeries.model)
 print(threeSeries.year)
+
+threeSeries.start()
+threeSeries.stop()
+threeSeries.display()
