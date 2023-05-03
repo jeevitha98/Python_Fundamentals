@@ -7,7 +7,7 @@ class Human:
         print("hello")
 
 def callTalk(obj):
-    obj.talk();
+    obj.talk()
 
 d-Duck()
 callTalk(d)
