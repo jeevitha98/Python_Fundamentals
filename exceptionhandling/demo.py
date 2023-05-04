@@ -8,6 +8,6 @@ except ZeroDivisionError:
     print("division by zero not allowed")
     print("please enter a non zero number")
 
-print("code after exception")
+print("..code after exception..")
 
 
