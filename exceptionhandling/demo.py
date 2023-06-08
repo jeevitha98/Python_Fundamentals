@@ -1,4 +1,7 @@
 #division by zero exception
+
+#logging.basicConfig(filename="mylog.log",level=logging.DEBUG)
+
 try:
     a,b=[int(x) for x in input("enter two numbers").split()]
     c=a/b
