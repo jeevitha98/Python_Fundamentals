@@ -1,6 +1,10 @@
-f=open('myfile.txt',"r")
-s=f.read()
+import os,sys
 
-print(s)
+if os.path.isfile('myfile.txt'):
+    f=open('myfile.txt',"r")
+    s=f.read()
+    print(s)
+    f.close()
 
-f.close()
+else:
+    print("file does nt exist")
