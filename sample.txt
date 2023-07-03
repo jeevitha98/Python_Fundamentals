@@ -1,3 +1,4 @@
 python is easy
 python
 django
+django for web
