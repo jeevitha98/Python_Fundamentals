@@ -9,3 +9,6 @@ print(result)
 
 result = re.match(r'o\w\w',str)
 print(result)
+
+result = re.findall(r'o\w+',str) #('o\w*',o\w{1},o\w?,o\w{1,2})
+print(result)
